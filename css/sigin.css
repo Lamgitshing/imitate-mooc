@@ -1,0 +1,188 @@
+.container{
+    width: 384px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #F8FAFC;
+}
+
+.head{
+    height: 120px;
+}
+
+.head a{
+    margin-top: 50px;
+}
+
+.head a div{
+    float: left;
+}
+
+.head a .img img{
+    height: 46px;
+}
+
+.head a .tit{
+    margin-left: 30px;
+}
+
+.head a .tit span{
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    color: #2E3133;
+    margin: 0px 1px;
+}
+
+.main{
+    padding: 20px 0px;
+}
+
+.main .in{
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.main .in .inhead{
+    padding: 0px 20px 25px;
+}
+
+.main .in .inhead a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #787D82;
+    width: 80px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.main .in .inhead a.con{
+    color: #F20D0D;
+}
+
+.main .in .inhead a.con::after{
+    content: "";
+    width: 16px;
+    height: 4px;
+    background: #F20D0D;
+    border-radius: 2px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main .in .inhead a:hover{
+    color: #F20D0D;
+}
+
+.main .in .inbody{
+    padding: 0px 32px;
+    margin-bottom: 16px;
+}
+
+.main .in .inbody .id,.main .in .inbody .psw{
+    height: 68px;
+}
+
+.main .in .inbody .id input,.main .in .inbody .psw input{
+    width: 288px;
+    height: 18px;
+    padding: 15px;
+    color: #9199A1;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.main .in .inbody .label{
+    margin-bottom: 14px;
+}
+
+.main .in .inbody .label input{
+    margin-right: 10px;
+}
+
+.main .in .inbody .label span{
+    color: #9199A1;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.main .in .inbody .label .fr a{
+    color: #9199A1;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.main .in .inbody .label .fr div{
+    width: 1px;
+    height: 14px;
+    background-color: #E8E8E8;
+    margin: 0px 10px;
+    position: relative;
+    top: 2px;
+}
+
+.main .in .inbody .login{
+    background-color: #F20D0D;
+    padding: 12px 32px;
+    border-radius: 20px;
+}
+
+.main .in .inbody .login input{
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.main .in .infoot{
+    padding: 0px 32px;
+}
+
+.main .in .infoot .sns{
+    margin-bottom: 6px;
+}
+
+.main .in .infoot .sns span{
+    margin-left: 30px;
+    margin-right: 24px;
+    padding-right: 24px;
+    font-size: 14px;
+    color: #f20d0d;
+    text-align: left;
+    line-height: 24px;
+    border-right: 1px solid #1a1C1F21;
+}
+
+.main .in .infoot .sns a{
+    position: relative;
+    top: 6px;
+    margin-right: 14px;
+}
+
+.main .in .infoot .sns a img{
+    width: 24px;
+    height: 24px;
+}
+
+.main .in .infoot .tip{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.main .in .infoot .tip span{
+    color: #717A84;
+}
+
+.main .in .infoot .tip a{
+    color: #3377FF;
+}

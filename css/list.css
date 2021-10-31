@@ -1,0 +1,404 @@
+.container {
+  width: 1386px;
+  margin: 0 auto;
+}
+
+.head {
+  background-color: #07111b;
+  height: 40px;
+}
+
+.head .lhead ul li {
+  float: left;
+}
+
+.head .lhead ul li:hover a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.head .lhead ul li a {
+  height: 40px;
+  margin-right: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  color: #717a84;
+}
+
+.head .lhead ul li a.con {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.head .rhead {
+  float: right;
+}
+
+.head .rhead .login {
+  color: #d3d6d9;
+  font-size: 12px;
+  line-height: 40px;
+  margin-right: 12px;
+}
+
+.head .rhead .login a {
+  color: #d3d6d9;
+  margin-right: 2px;
+}
+
+.right {
+  width: 52px;
+  height: 227px;
+  background-color: #ffffff;
+  border: 1px solid #edf1f2;
+  position: fixed;
+  top: 40%;
+  right: 0px;
+  bottom: 0px;
+  left: 95%;
+  margin: 0 auto;
+}
+
+.right ul li {
+  width: 34px;
+  height: 54px;
+  border-bottom: 2px solid #edf1f2;
+  position: relative;
+  left: 10px;
+  top: 0px;
+}
+
+.right ul li img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 4px;
+  top: 20px;
+}
+
+.right ul li:hover img {
+  display: none;
+}
+
+.right ul li span {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  font-size: 12px;
+  top: 20px;
+}
+
+.right ul li:hover span {
+  display: block;
+}
+
+.box1 .course .coursetop {
+  height: 80px;
+  padding-top: 16px;
+  border-bottom: 1px solid #d2d2d3;
+}
+
+.box1 .course .coursetop .logo1 {
+  float: left;
+  margin-right: 12px;
+}
+
+.box1 .course .coursetop .logo2 {
+  height: 60px;
+  float: left;
+}
+
+.box1 .course .coursetop .search {
+  width: 468px;
+  height: 40px;
+  float: right;
+  padding-top: 20px;
+}
+
+.box1 .course .coursetop .search .searchtext {
+  width: 450px;
+  padding-left: 16px;
+  color: #1c1f21;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f3f5f6;
+  float: right;
+}
+.box1 .course .coursetop .search .searchbtn {
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin-top: -28px;
+  margin-right: 10px;
+  background: url(../image/spider_search_v4.png) no-repeat 0px -593px;
+}
+
+.box1 .course .courselist .major,
+.box1 .course .courselist .skill,
+.box1 .course .courselist .diff {
+  padding: 16px 0 5px;
+  border-bottom: 1px solid #edf1f2;
+}
+
+.box1 .course .courselist .major span,
+.box1 .course .courselist .skill span,
+.box1 .course .courselist .diff span {
+  width: 52px;
+  height: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #07111b;
+  text-align: left;
+  float: left;
+}
+
+.box1 .course .courselist .major ul,
+.box1 .course .courselist .skill ul,
+.box1 .course .courselist .diff ul {
+  margin-left: 50px;
+}
+
+.box1 .course .courselist .major ul li,
+.box1 .course .courselist .skill ul li,
+.box1 .course .courselist .diff ul li {
+  float: left;
+  line-height: 14px;
+  margin-bottom: 10px;
+  margin-right: 14px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.box1 .course .courselist .major ul li.con,
+.box1 .course .courselist .skill ul li.con,
+.box1 .course .courselist .diff ul li.con {
+  font-weight: bold;
+  color: #f20d0d;
+  background-color: #fef1f1;
+}
+.box1 .course .courselist .major ul li:hover,
+.box1 .course .courselist .skill ul li:hover,
+.box1 .course .courselist .diff ul li:hover {
+  color: #f20d0d;
+}
+
+.box1 .course .courselist .skill {
+  max-height: 132px;
+  overflow: hidden;
+}
+
+.box1 .course .courselist .diff .ad img {
+  width: 222px;
+  height: 32px;
+}
+
+.box2 {
+  background-color: #f3f5f7;
+}
+
+.box2 .class {
+  padding-top: 20px;
+}
+
+.box2 .class .classtit {
+  padding-bottom: 20px;
+}
+
+.box2 .class .classtit .lclasstit span {
+  font-size: 12px;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.box2 .class .classtit .lclasstit span:hover {
+  border-radius: 10px;
+  background-color: #dfe3e6;
+  color: #545c63;
+}
+
+.box2 .class .classtit .lclasstit span.con {
+  border-radius: 10px;
+  background-color: #9199a1;
+  color: #fff;
+}
+
+.box2 .class .classtit .rclasstit .tool {
+  margin-right: 10px;
+}
+
+.box2 .class .classtit .rclasstit .tool span {
+  float: left;
+  color: #787d82;
+  margin-right: 3px;
+}
+
+.box2 .class .classtit .rclasstit .tool span.con {
+  color: #f01400;
+}
+
+.box2 .class .classtit .rclasstit .tool a {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #e3e7ea;
+  margin: 0px 3px;
+}
+
+.box2 .class .classtit .rclasstit .tool a img {
+  width: 10px;
+  height: 10px;
+}
+
+.box2 .class .classlist {
+  width: 1404px;
+}
+
+.box2 .class .classlist ul li {
+  float: left;
+  margin-left: 18px;
+  margin-bottom: 30px;
+}
+
+.box2 .class .classlist ul li a {
+  width: 216px;
+  position: relative;
+}
+
+.box2 .class .classlist ul li a img {
+  width: 216px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.box2 .class .classlist ul li .label {
+  position: absolute;
+  left: 10px;
+  bottom: 150px;
+}
+
+.box2 .class .classlist ul li .label span {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.box2 .class .classlist ul li a .name {
+  padding: 6px 6px 0px 6px;
+  height: 40px;
+}
+
+.box2 .class .classlist ul li a:hover .name {
+  color: #f20d0d;
+}
+
+.box2 .class .classlist ul li a .card {
+  padding: 0px 6px 6px 6px;
+}
+
+.box2 .class .classlist ul li a .card .cardtop {
+  margin-top: 6px;
+}
+
+.box2 .class .classlist ul li a .card .cardtop span {
+  color: #93999f;
+  margin-right: 10px;
+}
+
+.box2 .class .classlist ul li a .card .cardtop img {
+  width: 12px;
+  height: 12px;
+}
+
+.box2 .class .classlist ul li a .card p {
+  margin: 6px 0px;
+  font-size: 12px;
+  color: #93999f;
+}
+
+.box2 .class .classlist ul li a .card .cardbottom {
+  margin-top: 6px;
+}
+
+.box2 .class .classlist ul li a .card .cardbottom img {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+}
+
+.box2 .class .classlist ul li a .card .cardbottom .fl {
+  font-weight: bold;
+}
+
+.box2 .class .classlist ul li a .card .cardbottom .fr span {
+  color: #93999f;
+}
+
+.box2 .class .classlist ul li a .card .cardbottom .fr:hover span {
+  color: #4d555d;
+}
+
+.box2 .class .page {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box2 .class .page span {
+  font-size: 16px;
+  color: #4d555d;
+  height: 32px;
+  line-height: 32px;
+  margin: 0px 6px;
+}
+
+.box2 .class .page span.con1 {
+  color: #d0cdd2;
+}
+
+.box2 .class .page span.con2 {
+  border-radius: 50%;
+  background-color: #4d555d;
+  color: #fff;
+}
+
+.box2 .class .page span.num {
+  width: 32px;
+  margin: 0px 10px;
+}
+
+.box2 .class .page span.num:hover {
+  background-color: #d9dde1;
+  border-radius: 50%;
+}
+
+.foot {
+  background-color: #1c1f21;
+  padding: 30px 0px;
+}
+
+.foot .link {
+  margin-bottom: 10px;
+}
+
+.foot .link span {
+  color: #c8cdd2;
+  font-size: 12px;
+  margin: 0px 14px;
+}
+
+.foot p {
+  color: #99a1a6;
+  margin-left: 10px;
+}

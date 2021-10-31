@@ -1,0 +1,433 @@
+.container{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.head{
+    background-color: #07111B;
+    height: 40px;
+}
+
+.head .lhead ul li{
+    float: left;
+}
+
+.head .lhead ul li:hover a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.head .lhead ul li a {
+    height: 40px;
+    margin-right: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    color: #717A84;   
+}
+
+.head .lhead ul li a.con{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.head .rhead{
+    float: right;
+}
+
+.head .rhead .login{
+    color: #D3D6D9;
+    font-size: 12px;
+    line-height: 40px;
+    margin-right: 12px;
+}
+
+.head .rhead .login a{
+    color: #D3D6D9;
+    margin-right: 2px;
+}
+
+.right{
+    width: 52px;
+    height: 227px;
+    background-color: #FFFFFF;
+    border: 1px solid #EDF1F2;
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    bottom: 0px;
+    left: 95%;
+    margin: 0 auto;
+}
+
+.right ul li{
+    width: 34px;
+    height: 54px;
+    border-bottom: 2px solid #EDF1F2;
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+
+.right ul li img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 4px;
+    top: 20px;
+}
+
+.right ul li:hover img{
+    display: none;
+}
+
+.right ul li span{
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    font-size: 12px;
+    top: 20px;
+}
+
+.right ul li:hover span{
+    display: block;
+}
+
+.box1{
+    background-color: #171A1C;
+    padding-bottom: 26px;
+}
+
+.box1 .banner  .path{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #8A8B8D;
+}
+
+.box1 .banner  .path a,.box1 .banner  .path span{
+    color: #8A8B8D;
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.box1 .banner .title h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
+
+.box1 .banner .infor .teacher{
+    margin-right: 55px;
+}
+
+.box1 .banner .infor .teacher img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.box1 .banner .infor .teacher .tit{
+    width: 165px;
+}
+
+.box1 .banner .infor .teacher .tit span{
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.box1 .banner .infor .teacher .tit span.name{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.box1 .banner .infor .teacher .tit span.job{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.box1 .banner .infor .item{
+    float: left;
+}
+
+.box1 .banner .infor .item span{
+    color: #fff;
+    font-size: 12px;
+    line-height: 48px;
+    height: 48px;
+    text-align: center;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+.box1 .banner .infor .item::after{
+    content: "";
+    margin-left: 40px;
+}
+
+.box2  .menu{
+    padding: 10px 0px;
+}
+
+.box2  .menu ul li{
+    float: left;
+    position: relative;
+}
+
+.box2  .menu ul li span{
+    color: #1C1F21;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-right: 80px;
+}
+
+.box2  .menu ul li:hover span{
+    color: #F20D0D;
+}
+
+.box2  .menu ul li span.con{
+    color: #F20D0D;
+}
+
+.box2  .menu ul li span.con::after{
+    content: "";
+    background: #F20D0D;
+    width: 16px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box2  .menu ul li p{
+    position: absolute;
+    top: 0px;
+    right: 48px;
+    color: #9199A1;
+}
+
+.box3{
+    background-color: #F8FAFC;
+}
+
+.box3 .content{
+    width: 800px;
+}
+
+.box3 .content .abstract{
+    padding: 24px 34px 34px 34px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.box3 .content .chapter{
+    padding: 24px 34px 34px 34px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box3 .content .chapter ul{
+    padding-top: 10px;
+}
+
+.box3 .content .chapter ul li{
+    float: left;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.box3 .content .chapter ul li i{
+    position: relative;
+    top: 6px;
+}
+
+.box3 .content .chapter ul li i img{
+    float: left;
+}
+
+.box3 .content .chapter ul li span{
+    font-size: 14px;
+    line-height: 48px;
+}
+
+.box3 .content .chapter ul li .fr{
+    width: 80px;
+    height: 30px;
+    background-color: #F20C0C;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 32px;
+    position: relative;
+    top: 10px;
+    display: none;
+}
+
+.box3 .content .chapter ul li:hover{
+    background-color: #FEF3F3;
+    color: #F20C0C;
+}
+
+.box3 .content .chapter ul li:hover .fr{
+    display: inline;
+}
+
+.box3 .aside{
+    position: relative;
+    top: -140px;
+}
+
+.box3 .aside .wrap{
+    padding: 24px 34px 34px 34px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.box3 .aside .wrap .learnbtn{
+    width: 196px;
+    height: 30px;
+    background-color: #F20C0C;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.box3 .aside .wrap .learnbtn span{
+    width: 200px;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.box3 .aside .wrap .tip{
+    margin-top: 20px;
+}
+
+.box3 .aside .wrap .tip .one{
+    margin-bottom: 24px;
+}
+
+.box3 .aside .wrap .tip dd{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1C1F21;
+    margin-bottom: 6px;
+}
+
+.box3 .aside .wrap .tip dt{
+    width: 256px;
+    color: #545C63;
+    line-height: 24px;
+}
+
+.box3 .aside .ad{
+    margin-bottom: 24px;
+}
+
+.box3 .aside .ad img{
+    width: 320px;
+}
+
+.box3 .aside .commend h4{
+    margin-bottom: 10px;
+}
+
+.box3 .aside .commend .cover{
+    position: relative;
+}
+
+.box3 .aside .commend .cover img{
+    width: 80px;
+    height: 60px;
+    float: left;
+}
+
+.box3 .aside .commend .cover span{
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 18px;
+    padding: 2px 4px;
+    background: #1C1F21;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.box3 .aside .commend ul li{
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+.box3 .aside .commend .item{
+    margin-left: 10px;
+    width: 224px;
+    float: left;
+    border-bottom: 1px solid #E3E6E8;
+}
+
+.box3 .aside .commend .item .name{
+    color: #545C63;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.box3 .aside .commend .item p{
+    float: left;
+    color: #545C63;
+    line-height: 20px;
+}
+
+.box3 .aside .commend .item p::after{
+    content: "";
+    margin-right: 12px;
+}
+
+.box3 .aside .commend .item .price{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.box3 .aside .commend .item .people img{
+    width: 12px;
+    height: 12px;
+    float: left;
+    position: relative;
+    top: 3px;
+}
+
+.foot{
+    background-color: #1C1F21;
+    padding: 30px 0px;
+}
+
+.foot .link{
+    margin-bottom: 10px;
+}
+
+.foot .link span{
+    color: #C8CDD2;
+    font-size: 12px;
+    margin: 0px 14px;
+}
+
+.foot p{
+    color: #99A1A6;
+    margin-left: 10px;
+}
